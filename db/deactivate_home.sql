@@ -1,0 +1,1 @@
+update homes set active = false where id = $1;

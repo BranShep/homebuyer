@@ -1,0 +1,1 @@
+update lists set active = false where id = $1;

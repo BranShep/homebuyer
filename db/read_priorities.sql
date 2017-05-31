@@ -1,0 +1,1 @@
+select * from priorities where list_id = $1 and user_id = $2;

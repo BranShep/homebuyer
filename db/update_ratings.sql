@@ -1,0 +1,1 @@
+update ratings set rating_description = $1, rating_value = $2 where id = $3;

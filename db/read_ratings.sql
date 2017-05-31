@@ -1,0 +1,1 @@
+select * from ratings where user_id = $1 and home_id = $2;

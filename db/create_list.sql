@@ -1,0 +1,1 @@
+insert into lists (user_id, name, create_date, active) values ($1, $2, CURRENT_TIMESTAMP(2), true) returning id, name;

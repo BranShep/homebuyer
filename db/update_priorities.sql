@@ -1,0 +1,1 @@
+update priorities set priority_description = $1, priority_value = $2 where id = $3;
